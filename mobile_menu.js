@@ -5,7 +5,7 @@ const container = document.querySelector('header');
 const logo = document.querySelector('#logo');
 
 const openMenu = () => {
-  container.style.padding = '200px';
+  container.style.padding = '250px';
   menuBtn.style.display = 'none';
   closeBtn.style.display = 'block';
   mobileNav.style.display = 'block';
