@@ -28,6 +28,7 @@ header {
 }
 
 #desktop-nav,
+#mobile-nav,
 #desktop-nav ul {
   display: none;
 }
@@ -62,6 +63,10 @@ main {
   background-color: #1c1a19;
   color: white;
   position: relative;
+}
+
+#mobile-nav ul li a {
+  color: white;
 }
 
 #intro {
@@ -425,7 +430,8 @@ textarea {
     bottom: 35%;
   }
 
-  .mobile-icon {
+  .mobile-icon,
+  #mobile-nav {
     display: none;
   }
 
