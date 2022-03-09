@@ -27,8 +27,14 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#mobile-nav,
+#desktop-nav ul {
   display: none;
+}
+
+#mobile-nav {
+  text-align: end;
 }
 
 #logo {
@@ -61,6 +67,10 @@ main {
   background-color: #1c1a19;
   color: white;
   position: relative;
+}
+
+#mobile-nav ul li a {
+  color: white;
 }
 
 #intro {
@@ -424,7 +434,8 @@ textarea {
     bottom: 35%;
   }
 
-  .mobile-icon {
+  .mobile-icon,
+  #mobile-nav {
     display: none;
   }
 

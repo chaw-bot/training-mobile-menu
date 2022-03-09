@@ -11,7 +11,7 @@
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
+      <button type="button" class="menu-bars" onclick="toggleMenu()">
         <i class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
@@ -23,6 +23,14 @@
               >Contact <i class="far fa-envelope"></i
             ></a>
           </li>
+        </ul>
+      </nav>
+      <nav id="mobile-nav">
+        <i class="fa fa-times menu-close" aria-hidden="true" onclick="closeMenu();"></i>
+        <ul>
+          <li><a class="nav-link" href="#projects" onclick="closeMenu();">Portoflio</a></li>
+          <li><a class="nav-link" href="#about-me" onclick="closeMenu();">About</a></li>
+          <li><a class="nav-link" href="#contact" onclick="closeMenu();">Contact </a></li>
         </ul>
       </nav>
     </header>
@@ -438,6 +446,7 @@
         />
       </a>
     </footer>
+    <script src="mobile_menu.js"></script>
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
